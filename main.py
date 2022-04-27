@@ -2,8 +2,8 @@ from flickrapi import FlickrAPI
 from datetime import datetime
 import SQL
 
-API_KEY = 'cd5dc7d57cf932c1572c47d296b3c0bf'
-API_SECRET = 'd033d7f48fc160bd'
+API_KEY = 'XXXXX'
+API_SECRET = 'XXXXX'
 
 flickr = FlickrAPI(api_key=API_KEY, secret=API_SECRET, format='parsed-json', cache=False)
 

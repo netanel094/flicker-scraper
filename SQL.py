@@ -5,9 +5,9 @@ def create_data_base (Urls, Date_scrape, Keyword):
 
     # connect to MySQL server
     mydb = mysql.connector.connect(
-        host="127.0.0.1",
-        user="root",
-        password="1234"
+        host="XXXXX",
+        user="XXXXX",
+        password="XXXXX"
     )
 
     #craate the database
@@ -19,9 +19,9 @@ def create_data_base (Urls, Date_scrape, Keyword):
         print(x)
 
     mydb = mysql.connector.connect(
-        host="127.0.0.1",
-        user="root",
-        password="1234",
+        host="XXXXX",
+        user="XXXXX",
+        password="XXXXX",
         database="flicker"  # Adding the database name
     )
 
@@ -45,9 +45,9 @@ def search(minScrapeTime, maxScrapeTime,keyword,size):
 
     # connect to MySQL server
     mydb = mysql.connector.connect(
-        host="127.0.0.1",
-        user="root",
-        password="1234",
+        host="XXXXX",
+        user="XXXXX",
+        password="XXXXX",
         database = "flicker"
     )
     print(mydb)
